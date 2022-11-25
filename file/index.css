@@ -1,0 +1,583 @@
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none; -webkit-text-stroke: 0.5px black;}
+
+body{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+
+.kakao_ad_area
+{
+    margin:0;
+    padding:0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    z-index:99; 
+}
+
+
+.logo { 
+    margin:0;
+    padding:0;
+    left: 0;
+    top: 0;
+    position: fixed; 
+    width: 100%;
+    padding-bottom: 30px; 
+    z-index:100; 
+    background-color: white;
+}
+
+.logo > img 
+{ 
+    margin: auto;
+    margin-top: 45px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+
+
+
+.top
+{
+    display: inline;
+    position: relative;
+}
+
+.back
+{
+    left: 20px;
+    top: 60px;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.bg
+{
+    
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.bg > img
+{
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: white;
+    
+    
+    
+}
+
+.title
+{
+    text-align: left;
+    padding-right: 20px;
+}
+
+.line_start
+{
+    padding-bottom: 120px;
+    padding-top: 1vmax;   
+}
+
+.menu_start_line
+{
+    padding-top: 100px;
+}
+
+.menu_line
+{
+    border: solid 2px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+}
+
+.menu_line_special
+{
+    border: solid 2px;
+    padding-right: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+}
+
+
+.menu_line > p{
+    float: right;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+
+.menu_line_two
+{
+    border: solid 2px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(to left, #6A6A6A15 75%, #ffffff 30%);
+}
+
+.menu_line_two > p{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+
+.line > img
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+}
+.line > hr
+{
+    width: 100%;
+    height: 1px;
+    background-color: darkgrey;
+    border: none;  
+    border-radius: 10px 10px 10px 10px;  
+}
+.line
+{
+    border: solid 2px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+
+.line_end > img
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    float: left;
+
+}
+.line_end > hr
+{
+    width: 100%;
+    height: 1px;
+    background-color: darkgrey;
+    border: none; 
+}
+.line_end
+{
+    padding-bottom: 100px;
+}
+
+.blank
+{
+    padding-top: 10%;
+    visibility: hidden;
+}
+
+
+
+/*********************************/
+#name
+{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+    display: flex;
+}
+
+#cate
+{
+    color: #297E0B;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 30px;
+    display: flex;
+}
+
+#cate_name
+{
+    color: #297E0B;
+}
+
+#cate_name_N
+{
+    color: red;
+}
+
+
+
+.text_1
+{    
+    border-top: 2px outset #297E0B;
+    margin-top: 65vw;
+    padding-bottom: 100px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px; 
+}
+
+
+
+
+
+.text_1 > p
+{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.text_2
+{   
+
+    line-height: 30px; 
+    margin: auto;
+    margin-top: 40%;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-bottom: 50px;
+
+}
+
+.text_2 > p
+{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.line_start_1 > img
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    float: left;
+}
+.line_start_1 > hr
+{
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    background-color: dimgray;
+    border: none;  
+    
+    
+}
+.line_start_1
+{
+    padding-bottom: 160px;
+}
+
+.line_start_1 > a
+{
+    float: right;
+    clear: right;
+}
+
+
+.menu_line > img
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    float: left;
+}
+
+.menu_line_special > img
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 30px;
+    float: left;
+}
+
+
+.Menu_line > hr
+{
+    width: 100%;
+    height: 1px;
+    background-color: dimgray;
+    border: none;  
+    
+}
+.Menu_line
+{
+    border: solid 2px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.Menu_line > a
+{
+    float: right;
+    clear: right;
+}
+
+.menu_line > p
+{
+    margin-right: 10px;
+}
+
+
+
+
+
+#Menu_name
+{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+
+#price
+{
+    color: #297E0B;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 15px;
+    float: right;
+}
+
+#cate_1
+{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 30px;
+    display: flex;
+}
+
+
+
+.cate_line
+{
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(10, 1fr, 2fr)
+    
+}
+
+
+.cate_line > p{
+    text-align: center;
+    border: solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-color:#F5F5F5;
+}
+
+.cate_line > p > img
+{
+    width: 60px;
+}
+
+
+
+
+
+.nav > hr
+{
+    width: 100%;
+    height: 5px;
+    background-color: darkgrey;
+    border: none; 
+    float: left;
+}
+
+
+.bottom_menu { 
+    position: fixed; 
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 80px; 
+    z-index:100; 
+    border-top: 2px outset #F5F5F5;
+    background-color: white ;
+}
+.bottom_menu > div 
+{ 
+    float: left; 
+    width: 50%; 
+    height: 100%; 
+    text-align: center; 
+    padding-top: 20px; 
+   
+}
+
+
+.blank
+{
+    padding-top: 2%;
+    visibility: hidden;
+}
+
+
+.menu
+{
+    font-size: 30px;
+    text-align: center; 
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.script
+{
+    font-size: 20px;
+    text-align: center; 
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.wish
+{
+    margin-right: 20px;
+    float: right;
+    visibility: hidden;
+    display: none;
+}
+
+.product
+{ 
+    text-align: center; 
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 100px;
+    
+}
+
+.product > p
+{
+    border: 2px solid black;
+    margin-top: 120px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.ship 
+{
+    text-align: center; 
+    display: block;
+    margin: auto;   
+    padding-bottom: 100px;
+    
+
+}
+
+.ship > a
+{   
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 15px;
+    
+    
+}
+
+.line_end > br
+{
+    visibility: hidden;
+}
+
+.product > button
+{
+    font-size: 35px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.card
+{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.btn 
+{
+    border-radius: 15px;
+    border-style: hidden;
+	font-size: 25px;
+    padding: 10px;
+    width: 300px;
+    background-color: #297E0B;
+    color: white;
+}
+
+.container
+{
+    margin:0;
+    padding:0;
+    left: 0;
+    bottom: 15%;
+    position: fixed;
+    width: 100%;
+    height: 100px; 
+    z-index:100; 
+    
+}
+
+
+#navimg > img
+{
+    width: 50px;
+}
